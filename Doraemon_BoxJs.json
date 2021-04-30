@@ -1223,8 +1223,8 @@
 		"author": "@cenbomin",
 		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
 		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js",
-		"icons": ["https://gitee.com/heisedetian/test/raw/master/conghua.png",
-			"https://gitee.com/heisedetian/test/raw/master/conghua.png"
+		"icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/AutoRead.png",
+			"https://raw.githubusercontent.com/58xinian/icon/master/chsp.png"
 		]
 	},
     {
@@ -1277,8 +1277,8 @@
 		"author": "@cenbomin",
 		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
 		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js",
-		"icons": ["https://gitee.com/heisedetian/test/raw/master/conghua.png",
-			"https://gitee.com/heisedetian/test/raw/master/conghua.png"
+		"icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/AutoRead.png",
+			"https://raw.githubusercontent.com/58xinian/icon/master/chsp.png"
 		]
 	},
     {
@@ -1331,8 +1331,8 @@
 		"author": "@cenbomin",
 		"repo": ["https://raw.githubusercontent.com/CenBoMin/GithubSync"],
 		"script": "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js",
-		"icons": ["https://gitee.com/heisedetian/test/raw/master/conghua.png",
-			"https://gitee.com/heisedetian/test/raw/master/conghua.png"
+		"icons": ["https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/AutoRead.png",
+			"https://raw.githubusercontent.com/58xinian/icon/master/chsp.png"
 		]
 	},
 	{
@@ -1687,36 +1687,6 @@
       "icons": ["https://gitee.com/photonmang/quantumultX/raw/master/58.png", "https://gitee.com/photonmang/quantumultX/raw/master/58.png"]
     },
     {
-            "id": "hlyy",
-            "name": "葫芦音乐",
-            "keys": ["hlyyurl", "hlyyhd", "hlyyurl2", "hlyyhd2","hlyyurl3", "hlyyhd3","hlyyurl4", "hlyyhd4","hlyyurl5", "hlyyhd5","hlyyurl6", "hlyyhd6","hlyyurl7", "hlyyhd7","hlyyurl8", "hlyyhd8","hlyyurl9", "hlyyhd9","hlyyurl10", "hlyyhd10"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "hlyystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "hlyycount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    },
-    {
-            "id": "hltxje",
-            "name": "提现金额",
-            "val": "1",
-            "type": "number",
-            "desc": "填入1为提现1元,2为2元,3为5元,4为50元,5为100元,默认提现一元"
-    }],
-            "repo": "https://github.com/age174/-/blob/main/hlyy.js",
-            "icons": ["https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg", "https://ae01.alicdn.com/kf/U49d941738c0c41569f7db55825943375f.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/hlyy.js"
-    },
-    {
       "id": "didi",
       "name": "滴滴出行",
       "keys": ["didi_token", "didi_city_id", "didi_lid"],
@@ -1779,75 +1749,6 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/NE.cookie.js"
     }, 
-    {
-            "id": "jbcs",
-            "name": "脚本测试",
-            "keys": ["kxhyheader", "kxhyheader2","kxhyheader3", "kxhyheader4","kxhyheader5", "kxhyheader6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "kxhystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "kxhycount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/kxhy.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/jxhy.js"
-    },
-    {
-            "id": "jbcs2",
-            "name": "脚本测试2",
-            "keys": ["qlphd", "kzyhd", "qlphd2", "kzyhd2", "qlphd3", "kzyhd3","qlphd4", "kzyhd4"],
-            "author": "@tom",
-            "settings": [{
-            "id": "qlpstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "qlpcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/qlp.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/qlp.js"
-    },
-    {
-            "id": "jbcs3",
-            "name": "脚本测试3",
-            "keys": ["ryhyheader", "ryhyheader2","ryhyheader3", "ryhyheader4","ryhyheader5", "ryhyheader6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "ryhystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "ryhycount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ryhy.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/ryhy.js"
-    },
     {
       "id": "JD_Cookies",
       "name": "京东CK~LXK",
