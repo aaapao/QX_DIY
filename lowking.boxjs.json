@@ -2,7 +2,7 @@
   "id": "lowking.app.sub",
   "name": "lowking应用订阅",
   "author": "@lowking",
-  "icon": "https://avatars0.githubusercontent.com/u/33308659?s=460&u=9223074586cb14f2ae7ee0953515f8781ded8be9&v=4",
+  "icon": "https://avatars.githubusercontent.com/u/70012726?s=400&u=110b3ed4f8cc5a2089ab30c2fcfdec440a798f33&v=4",
   "repo": "https://github.com/lowking/Scripts/",
   "apps": [
     {
@@ -544,7 +544,7 @@
     },
     {
       "id": "lkAliYunPanCheckIn",
-      "name": "阿里云盘签到",
+      "name": "阿里云盘签到2",
       "desc_html": "⚠️使用说明</br>详情【<a href='https://github.com/lowking/Scripts/blob/master/ali/aliYunPanCheckIn.js?raw=true'><font class='red--text'>点我查看</font></a>】",
       "icons": [
         "https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPana.png",
@@ -585,14 +585,14 @@
         },
         {
           "id": "lkAliYunPanTokenKey",
-          "name": "阿里云盘token",
+          "name": "阿里云盘token2",
           "val": "",
           "type": "text",
           "desc": "阿里云盘token"
         },
         {
           "id": "lkAliYunPanRefreshTokenKey",
-          "name": "阿里云盘refresh_token",
+          "name": "阿里云盘refresh_token2",
           "val": "",
           "type": "text",
           "desc": "阿里云盘refresh_token"
