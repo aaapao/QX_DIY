@@ -24,6 +24,9 @@ cron "5 6-18/6 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/maste
 
 jd免费水果 搬的https://github.com/liuxiaoyucc/jd-helper/blob/a6f275d9785748014fc6cca821e58427162e9336/fruit/fruit.js
 */
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.33.5:18080";
+
 const $ = new Env('东东农场互助版');
 let cookiesArr = [], cookie = '', isBox = false, notify,allMessage = '';
 //助力好友分享码(最多3个,否则后面的助力失败),原因:京东农场每人每天只有3次助力机会
