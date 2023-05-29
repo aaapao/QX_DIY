@@ -3,6 +3,9 @@
 cron "35 5,13,19 * * *" jd_fruits_friend.js
 */
 
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.33.5:18080";
+
 const $ = new Env('东东农场-删减好友');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes, allMessage = '';
