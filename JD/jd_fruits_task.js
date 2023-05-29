@@ -4,6 +4,9 @@ cron "25 3,8,15,21 * * *" jd_fruits_task.js
 export DO_TEN_WATER_AGAIN="1" 攒水滴
 */
 
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.33.5:18080";
+
 const $ = new Env('东东农场-任务');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes, allMessage = '';
