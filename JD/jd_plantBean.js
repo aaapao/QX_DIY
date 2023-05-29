@@ -9,6 +9,9 @@
 cron "1 5,11,15,19 * * *" script-path=jd_plantBean.js,tag=京东种豆得豆
 */
 
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.33.5:18080";
+
 const $ = new Env('京东种豆得豆');
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
