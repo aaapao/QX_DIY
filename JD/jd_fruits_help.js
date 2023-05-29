@@ -3,6 +3,9 @@
 cron "5 4,7,14,20 * * *" jd_fruits_help.js
 */
 
+require("global-agent/bootstrap");
+global.GLOBAL_AGENT.HTTP_PROXY="http://192.168.33.5:18080";
+
 const $ = new Env('东东农场-助力');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, newShareCodes, allMessage = '';
